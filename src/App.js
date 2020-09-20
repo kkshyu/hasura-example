@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import React from "react";
 import { ApiProvider } from "./ApiContext";
 import HomePage from "./pages/HomePage";
