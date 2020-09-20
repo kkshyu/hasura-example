@@ -5,6 +5,7 @@
 1. log into https://hasura.io
 2. bind your Heroku account
 3. create a new project
+4. copy `.env` to `.env.local` and paste the hasura URL
 
 ## Step 2. Migration
 
