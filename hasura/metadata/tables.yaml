@@ -1,0 +1,18 @@
+- table:
+    schema: public
+    name: post
+  array_relationships:
+  - name: post_tags
+    using:
+      foreign_key_constraint_on:
+        column: post_id
+        table:
+          schema: public
+          name: post_tag
+- table:
+    schema: public
+    name: post_tag
+  object_relationships:
+  - name: post
+    using:
+      foreign_key_constraint_on: post_id
